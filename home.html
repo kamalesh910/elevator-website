@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuclear Electronics - Elevator Solutions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-bigger">
+    <a class="navbar-brand" href="#">
+      <img src="logo.jpg" alt="Company Logo">
+      Nuclear Electronics
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron" id="home">
+    <h1 class="display-4">Elevator Solutions for a Brighter Future</h1>
+    <p class="lead">Experience the next level in vertical transportation with</p> <p>Nuclear Electronics.</p>
+  </div>
+
+  <!-- About Us Section -->
+  <div class="container section" id="about">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>Welcome to Nuclear Electronics, where innovation meets vertical transportation excellence. With a rich
+          history spanning over two decades, we take pride in being a leading provider of cutting-edge elevator
+          solutions.</p>
+
+        <p>Our journey began in the vibrant city of Pune, Moshi, with a vision to revolutionize the elevator industry by
+          integrating state-of-the-art technology, unmatched quality, and a commitment to customer satisfaction. Over
+          the years, Nuclear Electronics has emerged as a trusted name, synonymous with reliability, safety, and
+          innovation in vertical transportation.</p>
+
+        <p>At the core of our success is a team of dedicated professionals driven by a passion for elevating
+          experiences. We specialize in designing, manufacturing, and installing elevators tailored to meet the diverse
+          needs of our clients across residential, commercial, and industrial sectors.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="About Us Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="container services" id="services">
+    <h2 class="text-center mb-4">Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feature">
+          <img
+            src="https://www.professionalelevators.com/wp-content/uploads/2019/07/hospital-elevators-image-product-page.jpg"
+            class="img-fluid" alt="Quality Elevators">
+          <h2>Quality Elevators</h2>
+          <p>Our elevators are designed and manufactured with the highest quality standards to ensure safety and
+            reliability.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature">
+          <img src="https://movinguplifts.com/wp-content/uploads/2015/10/shutterstock_297270614.jpg" class="img-fluid"
+            alt="Innovative Technology">
+          <h2>Innovative Technology</h2>
+          <p>We incorporate cutting-edge technology to provide state-of-the-art elevator solutions for modern
+            buildings.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature">
+          <img src="https://www.provintl.com/hubfs/iStock-1322205588.jpg#keepProtocol" class="img-fluid"
+            style="height: 240px;" alt="Customer Satisfaction">
+          <h2>Customer Satisfaction</h2>
+          <p>Our commitment to customer satisfaction is unwavering, and we strive to exceed expectations in every
+            project.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container section" id="contact">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>For inquiries and further information, please contact us:</p>
+        <ul>
+          <li>Email: info@nuclearelectronics.com</li>
+          <li>Phone: +91 90222 51429</li>
+          <li>Address: Moshi Pune</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Contact Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer text-center" id="projects">
+    <p>&copy; 2023 Nuclear Electronics. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    document.addEventListener("scroll", function () {
+      var navbar = document.querySelector(".navbar");
+      if (window.scrollY < 50) {
+        navbar.classList.add("navbar-bigger");
+      } else {
+        navbar.classList.remove("navbar-bigger");
+      }
+    });
+  </script>
+
+</body>
+
+</html>
