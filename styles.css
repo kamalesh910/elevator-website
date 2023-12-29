@@ -80,3 +80,7 @@ body {
   height: 35px;
   width: 35px;
 }
+
+.navbar-toggler{
+  background-color: #2779AF;
+  }
