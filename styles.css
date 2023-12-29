@@ -24,11 +24,13 @@ body {
 }
 
 .jumbotron {
-  background: url('https://elevators.com.au/wp-content/uploads/2021/04/ESG-Website-Cover-Option-1-4.jpg') no-repeat center center;
+  background: url('city_bg.jpg') no-repeat center center;
   background-size: cover;
   color: #ffffff;
   text-align: center;
   padding: 100px 0;
+  height: 652px;
+  width: 1495px;
 }
 
 .section {
