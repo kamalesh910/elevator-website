@@ -1,50 +1,82 @@
+body {
+  color: #2d2d2d;
+  font-family: BarlowRegular, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f0f5f5;
-      padding-top: 56px; /* Adjusted padding to accommodate the fixed-top navigation */
-    }
+.navbar {
+  background-color: #ECECEC;
+  transition: all 0.3s ease;
+}
 
-    .navbar {
-      background-color: #ECECEC;
-      transition: all 0.3s ease;
-    }
+.navbar img {
+  height: 50px;
+  /* Adjust the height of the logo */
+  width: auto;
+  /* Maintain the aspect ratio of the logo */
+  margin-right: 10px;
+  /* Add some spacing to the right of the logo */
+}
 
-    .navbar img {
-      height: 50px; /* Adjust the height of the logo */
-      width: auto; /* Maintain the aspect ratio of the logo */
-      margin-right: 10px; /* Add some spacing to the right of the logo */
-    }
+.navbar-dark .navbar-nav .nav-link {
+  color: #272525;
+}
 
-    .navbar-dark .navbar-nav .nav-link {
-      color: #272525;
-    }
+.jumbotron {
+  background: url('https://elevators.com.au/wp-content/uploads/2021/04/ESG-Website-Cover-Option-1-4.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
 
-    .jumbotron {
-      background: url('https://elevators.com.au/wp-content/uploads/2021/04/ESG-Website-Cover-Option-1-4.jpg') no-repeat center center;
-      background-size: cover;
-      color: #ffffff;
-      text-align: center;
-      padding: 100px 0;
-    }
+.section {
+  padding: 50px 0;
+}
 
-    .section {
-      padding: 50px 0;
-    }
+.feature {
+  margin-bottom: 30px;
+}
 
-    .feature {
-      margin-bottom: 30px;
-    }
+.footer {
+  background-color: #ECECEC;
+  color: #272525;
+  padding: 20px 0;
+}
 
-    .footer {
-      background-color: #ECECEC;
-      color: #272525;
-      padding: 20px 0;
-    }
+.navbar .navbar-brand {
+  color: #272525;
+}
 
-    .navbar .navbar-brand{
-      color: #272525;
-    }
-    .navbar-bigger {
-      height: 80px; /* Adjust the height of the bigger navigation bar */
-    }
+.navbar-bigger {
+  height: 80px;
+  /* Adjust the height of the bigger navigation bar */
+}
+
+.contact-card:hover {
+  box-shadow: 0 4px 8px #0000001a;
+  transform: translateY(-14px);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-container:hover .contact-card {
+  filter: blur(2px);
+}
+
+.contact-container:hover .contact-card:hover {
+  filter: blur(0);
+}
+
+.teaser__icon {
+  height: 35px;
+  width: 35px;
+}
