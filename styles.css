@@ -8,6 +8,11 @@ body {
 .navbar {
   background-color: #ECECEC;
   transition: all 0.3s ease;
+  padding: 0px;
+}
+
+.navbar-collapse{
+  background-color: #ECECEC;
 }
 
 .navbar img {
