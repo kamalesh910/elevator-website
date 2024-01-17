@@ -5,6 +5,15 @@ body {
   line-height: 1.5;
 }
 
+/* new */
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Set text color for the navigation links */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffd700; /* Change text color on hover */
+}
+/* Navbar Start*/
 .navbar {
   background-color: #ECECEC;
   transition: all 0.3s ease;
@@ -27,6 +36,8 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: #272525;
 }
+/* navbar close */
+
 
 /* .jumbotron {
   background: url('city_bg3.jpg') no-repeat center center;
@@ -135,6 +146,11 @@ body {
   margin-bottom: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
+  transition: color 0.3s ease-in-out; /* Add a smooth transition for color change */
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffd700; /* Change text color on hover */
 }
 /* Responsive */
 /* Media query for tablet view */
