@@ -15,6 +15,43 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Add these scripts before the closing body tag -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#services .row').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000, // Adjust the speed (in milliseconds) as needed
+        arrows: false, // Set to true if you want to display arrows
+      });
+    });
+
+
+    const contactContainers = document.querySelectorAll('.contact-container');
+
+    contactContainers.forEach(container => {
+      container.addEventListener('mouseenter', () => {
+        contactContainers.forEach(c => {
+          if (c !== container) {
+            c.classList.add('blurred');
+          }
+        });
+      });
+
+      container.addEventListener('mouseleave', () => {
+        contactContainers.forEach(c => {
+          c.classList.remove('blurred');
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -231,49 +268,6 @@
   <div class="footer text-center" id="projects">
     <p>&copy; 2023 Nuclear Elevators. All rights reserved.</p>
   </div>
-
-  <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <script>
-
-    const contactContainers = document.querySelectorAll('.contact-container');
-
-    contactContainers.forEach(container => {
-      container.addEventListener('mouseenter', () => {
-        contactContainers.forEach(c => {
-          if (c !== container) {
-            c.classList.add('blurred');
-          }
-        });
-      });
-
-      container.addEventListener('mouseleave', () => {
-        contactContainers.forEach(c => {
-          c.classList.remove('blurred');
-        });
-      });
-    });
-  </script>
-
-
-  <!-- Add these scripts before the closing body tag -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      $('#services .row').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000, // Adjust the speed (in milliseconds) as needed
-        arrows: false, // Set to true if you want to display arrows
-      });
-    });
-  </script>
 
 </body>
 
