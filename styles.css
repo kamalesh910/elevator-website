@@ -7,7 +7,7 @@ body {
 
 /* new */
 .navbar-nav .nav-item .nav-link {
-  color: #fff; /* Set text color for the navigation links */
+  color: #080101; /* Set text color for the navigation links */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -204,7 +204,7 @@ body {
 
 
 .navbar-toggler{
-  background-color: #2779AF;
+  background-color: #eef4f0;
 }
 
 /* About us */
