@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ffd700; /* Change text color on hover */
+  font-size:20px;
 }
 /* Navbar Start*/
 .navbar {
@@ -157,7 +157,7 @@ body {
 }
 
 .navbar .navbar-brand:hover {
-  color: #ffd700; /* Change text color on hover */
+  color:black; /* Change text color on hover */
 }
 /* Responsive */
 /* Media query for tablet view */
@@ -179,35 +179,6 @@ body {
   height: 80px;
   /* Adjust the height of the bigger navigation bar */
 }
-
-/* Contact */
-/* .contact-card:hover {
-  box-shadow: 0 4px 8px #0000001a;
-  transform: translateY(-14px);
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.contact-card {
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.contact-card {
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.contact-container:hover .contact-card {
-  filter: blur(2px);
-}
-
-.contact-container:hover .contact-card:hover {
-  filter: blur(0);
-}
-
-.teaser__icon {
-  height: 35px;
-  width: 35px;
-} */
-
 
 
 .navbar-toggler{
