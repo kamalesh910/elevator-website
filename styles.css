@@ -47,6 +47,13 @@ body {
   padding: 100px 0;
 } */
 
+.teaser__icon svg {
+  width: 40px;
+  height: 40px;
+  fill: #2779AF;
+}
+
+
 /*New Bg style for responsive*/
 .jumbotron {
   background: url('city_bg1.jpg') no-repeat center center;
